@@ -1,5 +1,5 @@
 # :latest is the latest LTS
-FROM ubuntu:22.04
+FROM ubuntu:kinetic
 
 # Make all commands non-interactive, so they don't stop and wait for a response
 ENV DEBIAN_FRONTEND=noninteractive
